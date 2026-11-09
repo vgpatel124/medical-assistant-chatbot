@@ -1,0 +1,37 @@
+# ── Serving dependencies (used in Cloud Run container) ───────────────────────
+
+# LangChain + RAG
+langchain>=0.1.0
+langchain-groq>=0.2.0
+fastembed>=0.4.0
+langgraph>=0.2.0
+langchain-community>=0.0.20
+faiss-cpu>=1.7.4
+ddgs>=9.0.0
+
+# Web framework
+fastapi>=0.110.0
+uvicorn>=0.29.0
+gradio>=4.0.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Auth
+bcrypt>=4.0.0
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.9
+
+# Cache
+redis>=5.0.0
+nltk>=3.8.0
+
+# Google Cloud (GCS for FAISS index)
+google-cloud-storage>=2.14.0
+
+# Graph
+neo4j>=5.0.0
+
+# Utils
+python-dotenv>=1.0.0
